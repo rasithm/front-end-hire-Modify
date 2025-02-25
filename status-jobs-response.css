@@ -1,0 +1,22 @@
+
+@media  (min-width: 1100px) and (max-width: 1250px) {
+
+    .dev-list{
+        width: 90%;
+    }
+
+    .all-menu{
+        width: 90%;
+    }
+}
+
+@media  (min-width: 950px) and (max-width: 1099px) {
+
+    .dev-list{
+        width: 90%;
+    }
+
+    .all-menu{
+        width: 90%;
+    }
+}
