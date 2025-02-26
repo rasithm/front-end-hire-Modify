@@ -4,6 +4,7 @@ body {
     background-color: #c0c5f2;
     scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
     
     
 }
@@ -102,67 +103,23 @@ body {
 
 
 /*box all*/
-.dev-detail-1{
-    height: 130px;
-    width: 100%;
-    margin-left: 20px;
-    
-    border-bottom: 1.5px solid #999;
-    margin-top: 10px;
-    display: flex;
-    flex-direction: row;
-    white-space: nowrap;
-    
-}
-.dev-detail-1-inside{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
-    height: 120px;
-    width: 70%;
-    white-space: nowrap;
-}
-.dev-name{
-    font-family: 'Poppins', sans-serif;
-    white-space: nowrap;
-}
-.company-name{
-    font-weight: 600;
-    color: #141B5F;
-    margin-bottom: 20px;
-    white-space: nowrap;
-}
-.application{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    justify-content: space-evenly;
-    width: 180px;
-    background-color: rgb(153, 153, 153);
-    border-radius: 15px;
-    white-space: nowrap;
-    margin-bottom: 10px;
-}
-.fa-circle-check{
-    color: #47B749;
-    justify-content: center;
-    margin-top: 5px;
-    white-space: nowrap;
 
+.another-box{
     
-}
-.application-saved{
-    color: black;
+    
+    width: 100%;
+    padding-left: 20px;
+    
+    z-index: 0;
+   
     white-space: nowrap;
-    
+    padding-top: 10px;
 }
-.dev-box1{
-    display: flex;
-    flex-direction: column;
-    
-    white-space: nowrap;
-}
+
+
+
+
+
 
 
 
@@ -182,6 +139,7 @@ body {
     padding-top: 10px;
     
 }
+
 
 
 
@@ -216,9 +174,10 @@ body {
 }
 .company-name{
     font-weight: 600;
-    color: #141B5F;
+    color:  #141B5F;
     margin-bottom: 20px;
     white-space: nowrap;
+    
 }
 .application{
     display: flex;
@@ -229,6 +188,7 @@ body {
     background-color: #E6E6E6;
     border-radius: 15px;
     white-space: nowrap;
+    margin-bottom: 10px;
 }
 .fa-circle-check{
     color: #47B749;
@@ -247,14 +207,22 @@ body {
     height: 70px;
     width: 70px;
     background-color:  #D9D9D9;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px;
     margin-left: 19px;
     margin-right: 70px;
-    margin-top: 10px;
+    margin-top: 10px; */
+}
+.dev-box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    white-space: nowrap;
+    gap: 15px;
 }
 .dev-box2-a{
     font-size: 14px;
-    margin-left: 15px;
+    /* margin-left: 15px; */
 }
 
 

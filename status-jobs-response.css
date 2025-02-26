@@ -1,4 +1,8 @@
-
+@media  (min-width: 1250px) and (max-width: 1350px){
+    .a-aboutjob{
+        left: 200px;
+    }
+}
 @media  (min-width: 1100px) and (max-width: 1250px) {
 
     .dev-list{
@@ -8,15 +12,31 @@
     .all-menu{
         width: 90%;
     }
+    .a-aboutjob{
+        left: 180px;
+    }
 }
 
-@media  (min-width: 950px) and (max-width: 1099px) {
+@media  (min-width: 900px) and (max-width: 1100px) {
 
     .dev-list{
-        width: 90%;
+        width: 94%;
     }
 
     .all-menu{
-        width: 90%;
+        width: 94%;
     }
+    .dev-name{
+        font-size: 18px;
+    }
+    .dev-box2{
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        padding-right: 5px;
+    }
+    .a-aboutjob{
+        left: 180px;
+    }
+
 }

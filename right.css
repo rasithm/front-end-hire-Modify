@@ -20,7 +20,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     width: 50%;
-    /*background-color: burlywood;*/
+    /* background-color: burlywood; */
     
 }
 .right-fixied-company{
@@ -60,19 +60,19 @@
     font-weight: 300;
     position: absolute;
     top: 10px;
-    left: 200px;
+    left: 250px;
     font-family: 'Poppins', sans-serif;
 }
 .right-dev-info-fixed-1-part2{
     position: relative;
-    /*background-color: red;*/
-    
+    /* background-color: rgb(84, 39, 39); */
+    right: 5%;
 }
 
 
 /*fixed-box-2*/
 .application-div-text{
-    background-color: honeydew;
+    /* background-color: honeydew; */
     margin-top: 3px;
 
 }
