@@ -38,5 +38,9 @@
     .a-aboutjob{
         left: 180px;
     }
+    #progressbar li{
+        font-size: 12px;
+        gap: 5px;
+    }
 
 }
